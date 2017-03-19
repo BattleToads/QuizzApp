@@ -15,7 +15,7 @@ namespace QuizApp {
 
         public prepHTML() {
             let preppedHTML = "";
-            preppedHTML += `<h1>Q${this.questionNumber}: ${this.question}</h1><hr>`
+            preppedHTML += `<h1>Q${this.questionNumber}: ${this.question}</h1><hr>`;
             for (let i = 0; i < this.answers.length; i++) {
                 preppedHTML += `<p><input type='radio' name='${this.questionNumber}' label='${this.answers[i]}'`;
                 console.log(preppedHTML);
